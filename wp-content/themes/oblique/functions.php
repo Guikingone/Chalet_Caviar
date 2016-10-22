@@ -223,8 +223,8 @@ add_filter('excerpt_more', 'oblique_excerpt_more');
  * Footer credits
  */
 function oblique_footer_credits() {
-	echo '<a href="' . esc_url( __( 'http://wordpress.org/', 'oblique' ) ) . '" rel="nofollow">';
-		printf( __( 'Proudly powered by %s', 'oblique' ), 'WordPress' );
+	echo '<a href="' . esc_url( __( 'wp-admin/', 'gagne' ) ) . '" rel="nofollow">';
+		printf( __( 'Chalet & Caviar, quand la montagne vous %s', 'gagne' ), '' );
 	echo '</a>';
 	echo '<span class="sep"> | </span>';
 	printf( __( 'Theme: %2$s by %1$s.', 'oblique' ), 'Themeisle', '<a href="http://themeisle.com/themes/oblique/" rel="nofollow">Oblique</a>' );

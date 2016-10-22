@@ -16,7 +16,7 @@
 	</div>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			<?php do_action('oblique_footer'); ?>
+			<a href="wp-admin/">Comprendre et satisfaire || </a>Chalet & Caviar
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
